@@ -1,16 +1,17 @@
-<h1>Microsoft 365 & Entra ID - Administration & Configuration</h1>
+<h1>Microsoft 365 & Entra ID - Administration & Help Desk Simulation</h1>
 
 <h2>Overview</h2>
-<p>This project demonstrates the administration and initial configuration of a Microsoft 365 environment integrated with Entra ID. The goal is to simulate a real-world cloud-based enterprise setup, including user management, authentication, licensing, and core service configuration.</p>
-<p>Micrososft 365 and Entra ID are widely used in modern organizations to manage users, access, and cloud-based services such as email, collaboration tools, and file storage.</p>
+<p>This project demonstrates the administration and support of a Microsoft 365 environment integrated with Entra ID in a virtual lab. The focus of this lab is to simulate real-world help desk and IT support tasks using administrative tools rather than end-user logins.</p>
+<p>Microsoft 365 and Entra ID are widely used in enterprise environments to manage users, access, licensing, and cloud-based services such as email, Teams, and file storage.</p> <p>This lab focuses on validating and managing services through administrative portals, mirroring real IT support workflows.</p>
 <h2>Objectives</h2>
 
 - <b>Create and manage users in Entra ID</b>
 - <b>Assign and manage Microsoft 365 licenses</b>
-- <b>Configure Exchange Online mailboxes</b>
-- <b>Set up Microsoft Teams access</b>
-- <b>Configure OneDrive and SharePoint services</b>
-- <b>Validate user access to Microsoft 365 services</b>
+- <b>Configure and verifty Exchange Online mailboxes</b>
+- <b>Support Microsoft Teams and OneDrive provisioning</b>
+- <b>Manage security roles and access control (RBAC)</b>
+- <b>Validate service health and provisioning through admin tools</b>
+- <b>Simulate real-world help desk troubshooting scenarios</b>
 <h2>Lab Environment</h2>
 
 - <b>Platform: Microsoft 365 Business (Trial Tenant)</b>
@@ -20,71 +21,80 @@
   - Entra Admin Center
   - Exchange Admin Center
   - Teams Admin Center
-<h2>Installation & Configuration Steps</h2>
+<h2>Administration & Configuration Steps</h2>
 <h3>1. Access Microsoft 365 Admin Center</h3>
 
 - <b>Sign in to Microsoft 365 Admin Center</b>
-- <b>Verify tenant setup and domain</b>
+- <b>Verify tenant setup and default domain</b>
 - <b>Review available services and licenses</b>
 <br>
 <img src="ADD-YOUR-SCREENSHOT-HERE" height="80%" width="80%" alt="M365 Admin Center"/> <br>
 <h3>2. Create Users in Entra ID</h3>
 
 - <b>Navigate to Entra Admin Center</b>
-- <b>Create Help Desk Admin account</b>
-- <b>Create standard test user accounts</b>
-- <b>Assign usernames and initial passwords</b>
+- <b>Create admin and standard user accounts</b>
+- <b>Verify users appear in All Users list</b>
 <br>
 <img src="ADD-YOUR-SCREENSHOT-HERE" height="80%" width="80%" alt="Create Users"/> <br>
-<h3>3. Assign Microsoft 365 Licenses</h3>
+<h3>3. Assign Admin Roles</h3>
+
+- <b>Assign User Administrator role to help desk admin account</b>
+- <b>Validate role assignment in Entra ID Roles section</b>
+- <b>Demonstrate role-based access control (least privilege)</b>
+<br>
+<img src="ADD-YOUR-SCREENSHOT-HERE" height="80%" width="80%" alt="Create Users"/> <br>
+<h3>4. Assign Microsoft 365 Licenses</h3>
 
 - <b>Assign licenses to users</b>
-- <b>Verify service access (Outlook, Teams, OneDrive)</b>
-- <b>Remove and reassign licenses for testing</b>
+- <b>Enable core services (Exchange, Teams, OneDrive)</b>
+- <b>Verify license assignment status in Active Users</b>
 <br>
 <img src="ADD-YOUR-SCREENSHOT-HERE" height="80%" width="80%" alt="License Assignment"/> <br>
-<h3>4. Configure Exchange Online Mailboxes</h3>
+<h3>5. Configure Exchange Online Mailboxes</h3>
 
 - <b>Verify mailbox creation after license assignment</b>
-- <b>Create shared mailbox</b>
-- <b>Assign mailbox permissions</b>
+- <b>Access Exchange Admin Center</b>
+- <b>Validate user mailboxes and shared mailboxes</b>
 <br>
 <img src="ADD-YOUR-SCREENSHOT-HERE" height="80%" width="80%" alt="Exchange Admin Center"/> <br>
-<h3>5. Configure Microsoft Teams Access</h3>
+<h3>6. Configure Microsoft Teams Access</h3>
 
-- <b>Verify Teams license assignment</b>
-- <b>Confirm Teams access for users</b>
-- <b>Test Teams login and functionality</b>
+- <b>Verify Teams service is enabled via licensing</b>
+- <b>Confirm service provisioning through admin portal</b>
+- <b>Validate Teams readiness from admin perspective</b>
 <br>
 <img src="ADD-YOUR-SCREENSHOT-HERE" height="80%" width="80%" alt="Teams Access"/> <br>
-<h3>6. Configure OneDrive & SharePoint</h3>
+<h3>7. Configure OneDrive & SharePoint Services</h3>
 
-- <b>Verify OneDrive provisioning</b>
-- <b>Test file upload and sync</b>
-- <b>Configure basic sharing permissions</b>
+- <b>Verify OneDrive provisioning status</b>
+- <b>Confirm SharePoint service availability</b>
+- <b>Validate service enablement through licensing</b>
 <br>
 <img src="ADD-YOUR-SCREENSHOT-HERE" height="80%" width="80%" alt="OneDrive Setup"/> <br>
-<h3>7. Validate Environment</h3>
+<h3>8. Validate Service Health & Provisioning</h3>
 
-- <b>Log in as test users</b>
+- <b>Review service health dashboard</b>
 - <b>Confirm access to Outlook, Teams, and OneDrive</b>
-- <b>Verify MFA prompts during login</b>
-- <b>Validate license-based service access</b>
+- <b>Confirm successful user provisioning</b>
+- <b>Validate licensing and service activation status</b>
 <br>
 <img src="ADD-YOUR-SCREENSHOT-HERE" height="80%" width="80%" alt="User Login"/> <br>
 <h2>Skills Demonstrated</h2>
 
 - <b>Microsoft 365 administration and configuration</b>
 - <b>Entra ID user and identity management</b>
+- <b>Role-based access control (RBAC)</b>
 - <b>License management and service provisioning</b>
 - <b>Exchange Online mailbox configuration</b>
-- <b>Teams and OneDrive service setup</b>
-- <b>Cloud environment validation and testing</b>
-<h2>Next Steps</h2> <p>The next phase of this project will focus on real-world help desk tasks and troubleshooting, including:</p>
+- <b>Microsoft Teams and OneDrive service administration</b>
+- <b>Cloud service health and provisioning verification</b>
+<h2>Next Steps</h2>
+<p>The next phase of this project will focus on real-world help desk tasks and troubleshooting, including:</p>
 
-- <b>User login issues</b>
 - <b>License-related access issues</b>
-- <b>Email delivery problems</b>
-- <b>OneDrive sync issues</b>
+- <b>Email delivery troubleshooting</b>
+- <b>Teams and OneDrive access problems</b>
+- <b>User provisioning delays</b>
+- <b>Security and compliance policies (Conditional Access)</b>
 <h2>Notes</h2>
-<p>This lab is part of a larger effort to simulate real-world IT support scenarios and develop hands-on experience with Microsoft 365 and Entra ID for entry-level IT support roles.</p>
+<p>This lab focuses on administrative-level support workflows rather than end-user login simulation. It reflects real-world IT support practices where issues are validated through admin portals, logs, and service health dashboards rather than direct user session access.</p>
