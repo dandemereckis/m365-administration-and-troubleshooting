@@ -6,7 +6,6 @@
 <h2>Objectives</h2>
 
 - <b>Create and manage users in Entra ID</b>
-- <b>Configure Multi-Factor Authentication (MFA)</b>
 - <b>Assign and manage Microsoft 365 licenses</b>
 - <b>Configure Exchange Online mailboxes</b>
 - <b>Set up Microsoft Teams access</b>
@@ -37,42 +36,35 @@
 - <b>Assign usernames and initial passwords</b>
 <br>
 <img src="ADD-YOUR-SCREENSHOT-HERE" height="80%" width="80%" alt="Create Users"/> <br>
-<h3>3. Configure Multi-Factor Authentication (MFA)</h3>
-
-- <b>Enable MFA for users</b>
-- <b>Configure authentication methods (Authenticator App)</b>
-- <b>Test MFA login flow</b>
-<br>
-<img src="ADD-YOUR-SCREENSHOT-HERE" height="80%" width="80%" alt="MFA Setup"/> <br>
-<h3>4. Assign Microsoft 365 Licenses</h3>
+<h3>3. Assign Microsoft 365 Licenses</h3>
 
 - <b>Assign licenses to users</b>
 - <b>Verify service access (Outlook, Teams, OneDrive)</b>
 - <b>Remove and reassign licenses for testing</b>
 <br>
 <img src="ADD-YOUR-SCREENSHOT-HERE" height="80%" width="80%" alt="License Assignment"/> <br>
-<h3>5. Configure Exchange Online Mailboxes</h3>
+<h3>4. Configure Exchange Online Mailboxes</h3>
 
 - <b>Verify mailbox creation after license assignment</b>
 - <b>Create shared mailbox</b>
 - <b>Assign mailbox permissions</b>
 <br>
 <img src="ADD-YOUR-SCREENSHOT-HERE" height="80%" width="80%" alt="Exchange Admin Center"/> <br>
-<h3>6. Configure Microsoft Teams Access</h3>
+<h3>5. Configure Microsoft Teams Access</h3>
 
 - <b>Verify Teams license assignment</b>
 - <b>Confirm Teams access for users</b>
 - <b>Test Teams login and functionality</b>
 <br>
 <img src="ADD-YOUR-SCREENSHOT-HERE" height="80%" width="80%" alt="Teams Access"/> <br>
-<h3>7. Configure OneDrive & SharePoint</h3>
+<h3>6. Configure OneDrive & SharePoint</h3>
 
 - <b>Verify OneDrive provisioning</b>
 - <b>Test file upload and sync</b>
 - <b>Configure basic sharing permissions</b>
 <br>
 <img src="ADD-YOUR-SCREENSHOT-HERE" height="80%" width="80%" alt="OneDrive Setup"/> <br>
-<h3>8. Validate Environment</h3>
+<h3>7. Validate Environment</h3>
 
 - <b>Log in as test users</b>
 - <b>Confirm access to Outlook, Teams, and OneDrive</b>
@@ -84,7 +76,6 @@
 
 - <b>Microsoft 365 administration and configuration</b>
 - <b>Entra ID user and identity management</b>
-- <b>Multi-Factor Authentication (MFA) setup</b>
 - <b>License management and service provisioning</b>
 - <b>Exchange Online mailbox configuration</b>
 - <b>Teams and OneDrive service setup</b>
@@ -92,7 +83,6 @@
 <h2>Next Steps</h2> <p>The next phase of this project will focus on real-world help desk tasks and troubleshooting, including:</p>
 
 - <b>User login issues</b>
-- <b>MFA failures</b>
 - <b>License-related access issues</b>
 - <b>Email delivery problems</b>
 - <b>OneDrive sync issues</b>
