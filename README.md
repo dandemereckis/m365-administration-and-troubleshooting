@@ -40,7 +40,9 @@ The goal is to demonstrate the ability to troubleshoot, resolve, and document Mi
 - Confirmed account status normal  
 
 <br>
-<img src="SCREENSHOT-LINK-HERE" height="80%" width="80%" alt="Password Reset"/>
+<img src="https://i.imgur.com/auGt4rA.png" height="80%" width="80%" alt="Password Reset"/>
+<br />
+<img src="https://i.imgur.com/t2n31eg.png" height="80%" width="80%" alt="Password Reset"/>
 <br />
 
 #### Ticket Resolution
@@ -68,7 +70,9 @@ The goal is to demonstrate the ability to troubleshoot, resolve, and document Mi
 - Verified services enabled successfully  
 
 <br>
-<img src="SCREENSHOT-LINK-HERE" height="80%" width="80%" alt="License Assignment"/>
+<img src="https://i.imgur.com/7jg7Pdy.png" height="80%" width="80%" alt="License Assignment"/>
+<br />
+<img src="https://i.imgur.com/qZirvpQ.png" height="80%" width="80%" alt="License Assignment"/>
 <br />
 
 #### Ticket Resolution
@@ -95,7 +99,7 @@ The goal is to demonstrate the ability to troubleshoot, resolve, and document Mi
 - Verified account disabled status  
 
 <br>
-<img src="SCREENSHOT-LINK-HERE" height="80%" width="80%" alt="Block Sign In"/>
+<img src="https://i.imgur.com/Mo9v6eU.png" height="80%" width="80%" alt="Block Sign In"/>
 <br />
 
 #### Ticket Resolution
@@ -123,7 +127,7 @@ The goal is to demonstrate the ability to troubleshoot, resolve, and document Mi
 - Verified Teams access restored  
 
 <br>
-<img src="SCREENSHOT-LINK-HERE" height="80%" width="80%" alt="Teams Troubleshooting"/>
+<img src="https://i.imgur.com/BnwzFi6.png" height="80%" width="80%" alt="Teams Troubleshooting"/>
 <br />
 
 #### Ticket Resolution
@@ -150,7 +154,7 @@ The goal is to demonstrate the ability to troubleshoot, resolve, and document Mi
 - Confirmed updated membership  
 
 <br>
-<img src="SCREENSHOT-LINK-HERE" height="80%" width="80%" alt="Distribution Group"/>
+<img src="https://i.imgur.com/WoxKGQK.png" height="80%" width="80%" alt="Distribution Group"/>
 <br />
 
 #### Ticket Resolution
